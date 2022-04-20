@@ -109,6 +109,7 @@
 }
 .how-we-work-div{
     display: flex;
+    
 }
 #how-we-work-div-one img{
     margin-left: 100px;
@@ -139,6 +140,7 @@
 .how-we-work-shedule-div-one img{
     margin-left: 100px;
     margin-top: 50px;
+    
 }
 #how-we-work-deliver-div-one h2{
     margin-left: 80px;
@@ -497,7 +499,6 @@
     /* How we Work */
     .how-we-work{
         background-color: white;
-        
     }
     .how-we-work h1{
         color: black;

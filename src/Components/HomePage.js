@@ -63,12 +63,13 @@ export default class HomePage extends Component {
       </div>
 
       <div className="how-we-work-div">
-      <div className='how-we-work-shedule-div-one'>
-        <img src={how_we_work_2} alt=""/>
-      </div>
+      
       <div className='how-we-work-shedule-div-one'>
         <h2>Make  Payment  and Chat With Us</h2>
         <p>You can contact our customer service agent via phone <br /> or email if you have any questions or concerns.</p>
+      </div>
+      <div className='how-we-work-shedule-div-one'>
+        <img src={how_we_work_2} alt=""/>
       </div>
     </div>
 
