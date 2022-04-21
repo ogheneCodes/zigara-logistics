@@ -1,28 +1,29 @@
 @media (min-width: 1280px) {
-    /* Quick and Reliable Div */
 
+    /* Quick and Reliable Div */
 #quick-and-reliable{
     width:100%;
-    /* background-color: #4c9e9e; */
     display: flex;
+    padding-top: 100px;
 }
 #quick-and-reliable-div1{
     width: 40%;
-    /* background-color:green; */
     margin-left: 2px;
     
 }
 #quick-and-reliable-div2{
     background-image: url(../../images/img1-quick.png);
     background-repeat: no-repeat;
-    /* background-color: red; */
-    /* background-size: 100%; */
-    /* width: 60%; */
     background-position:relative;
 }
-#quick-and-reliable-div1 h1{
-     margin-left: 150px;
-     margin-top: 60px;
+#QR{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+#D{
+    margin-left: 170px;
+    margin-top: 10px;
+    color: red;
 }
 #quick-and-reliable-div1 span{
     margin-left: 200px;
@@ -49,8 +50,7 @@
    }
    #rectangle2{
     margin-top: 320px;
-    /* margin-right: 40px; */
-    margin-left: 740px;
+    margin-left: 750px;
     
 
 }
@@ -58,8 +58,6 @@
 /* Who we Are */
 #who-we-are{
     background-color: #D71F20;
-    /* width:90%; */
-    /* border-radius: 10px; */
     display: flex;
 }
 
@@ -90,8 +88,6 @@
 }
 #who-we-are-div1-two p{
    color: white;
-   /* margin-left: 2px;   
-   margin-top: 25px;  */
    margin-left: 80px;
     margin-top: 20px;
     margin-right: 100px;
@@ -271,7 +267,6 @@
  #footer{
      background-color: #1B1919;
      color: white;
-     /* height: 550; */
  }
  #footer-div-one{
      display: flex;
@@ -280,13 +275,6 @@
      margin-top: 20px;
  }
  #footer-div-one img{
-     /* font-size: xx-large; */
-     /* font-stretch: expanded; */
-     /* font-weight: bold; */
-     /* flex-grow: 1; */
-     /* border-radius: 90%;
-     background-color:#D71F20;
-     color: black; */
      margin-top: 70px;
      margin-left: 70px;
      width: 150px;
@@ -318,8 +306,6 @@
     text-align: center;
  }
  #business-hour-div > h2, p{
-    /* margin-top: 30px; */
-    /* margin-left: 20px; */
     margin: 10px;
  }
  #footer-div-two{
@@ -330,18 +316,16 @@
     margin-left: 70px;
  }
  #social-media-div{
-     /* margin: 20px; */
      width: 50%;
  }
  
  #social-media-div > a{
      color: white;
      margin-left: 70px;
-     /* width: 5px; */
     
  }
  #social-media-div > a:hover{
-    color: blue;
+    color: blue !important;
     margin-left: 70px;
 }
  #copyright-div{
@@ -366,56 +350,41 @@
         width: 100%;
         height: 100%;
         margin: 0px;
-        /* background-color:#D71F20; */
-        
+ 
     }
     
-        /* Quick and Reliable Div */
+/* Quick and Reliable Div */
     
     #quick-and-reliable{
         width:100%;
-        /* background-color: aqua; */
+        padding-top: 100px;
        
     }
     #quick-and-reliable-div1{
         width: 100%;
-        /* background-color: yellow; */
-      margin-top: 0px;
+        margin-top: 0px;
         
     }
     #quick-and-reliable-div2{
         /* background-image: url("images/img1-quick.png"); */
         background-image: url(../../images/img1-quick.png);
-      
         background-repeat: no-repeat;
-        /* background-color:green; */
         background-size: 100%;
-        /* height: 550px; */
-       margin-top: 10px;
-        width: 100%;
-       
-        /* background-position:inherit; */
-       
-    }
-    #quick-and-reliable-div1 h1{
-        text-align:center;
-        margin-top: 40px;
-        /* margin-left: 350px; */
-       
+         margin-top: 10px;
+        width: 100%;       
     }
    
-    #quick-and-reliable-div1 span{
-        margin-left: 150px;
-        /* text-align:center; */
-        
-        font-size: larger;
-        font-weight: bolder;
-     
-        
+    #QR{
+        text-align:center
     }
+    #D{
+        text-align: center;
+        margin-top: 5px;
+        color: red;
+    }
+
     #quick-and-reliable-div1 > p{
         text-align:center;
-     
         margin-top: 30px;
         margin-bottom: 20px;
         /* margin-left: 50px; */
@@ -437,14 +406,11 @@
        #rectangle1{
            margin-left: 5px;
            margin-top: 10px;
-           /* display: none; */
        }
        #rectangle2{
         margin-top: 140px;
-        /* margin-right: 10px; */
-        margin-left:320px;
-        /* display: none; */
-        /* position: relative; */
+        margin-left:300px;
+       
         
     
     }
@@ -588,8 +554,8 @@
         border-radius: 20px;
         margin-top: 50px;
         text-align: center;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     #safe img{
        margin-top: 50px;
@@ -609,8 +575,8 @@
         border-radius: 20px;
         margin-top: 50px;
         text-align: center;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     #fast img{
         margin-top: 50px;
@@ -629,8 +595,8 @@
         border-radius: 20px;
         margin-top: 50px;
         text-align: center;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     #reliable img{
         margin-top: 50px;
@@ -695,15 +661,7 @@
          margin-top: 20px;
      }
      #footer-div-one img{
-         /* font-size: xx-large; */
-         /* font-stretch: expanded; */
-         /* font-weight: bold; */
-         /* flex-grow: 1; */
-         /* border-radius: 90%;
-         background-color:#D71F20;
-         color: black; */
          margin-top: 70px;
-         /* margin-left: 70px; */
          width: 150px;
          height:70px;
          text-align: center;
@@ -738,17 +696,23 @@
         margin: 10px;
      }
    
-     
+     #social-media-div{
+        /* margin: 20px; */
+        width: 50%;
+        margin-left: 40px;
+    }
      #social-media-div h2{
         margin-left: 0px;
         margin-top: 150px;
         margin-bottom:0px;
      }
-     #social-media-div{
-         /* margin: 20px; */
-         width: 50%;
-         margin-left: 40px;
-     }
+     #social-media-div > a{
+        color: white;
+       
+    }
+    #social-media-div > a:hover{
+       color: blue !important;
+   }
      
      
      #copyright-div > p{

@@ -1,0 +1,29 @@
+h1{
+    text-align:center;
+    margin-top: 50px;
+}
+p{
+    text-align:center;
+    margin-top: 10px;
+}
+.divs{
+    margin: 25px auto;
+    width:50%;
+    border: 1px solid red;
+    border-radius: 50px;
+    text-align: center;
+    height: 250px;
+    
+}
+.divs > h2{
+    margin: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.divs > p{
+    margin: -40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}

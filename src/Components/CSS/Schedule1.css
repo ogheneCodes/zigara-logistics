@@ -1,0 +1,27 @@
+#form{
+        width: 70%;
+        margin: auto;
+        padding: 5px;
+        color: black;
+}
+
+input[type=text], [type=email], [type=tel] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-left: 70px;
+    border-radius: 5px;
+    border-style: ridge;
+}
+input[type=submit]{
+    color: white;
+    background-color: #D71F20;
+    border-radius: 10px;
+    width: 35%;
+    /* margin: auto; */
+    height: 50px
+}
+h2{
+    margin-left: 60px;
+}

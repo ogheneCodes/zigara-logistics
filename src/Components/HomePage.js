@@ -21,8 +21,8 @@ export default class HomePage extends Component {
 
       <section id="quick-and-reliable">
       <div id="quick-and-reliable-div1">
-          <h1>Quick & Reliable</h1>
-          <span>Delivery</span>
+          <h1 id='QR'>Quick & Reliable</h1>
+          <h1 id='D'>Delivery</h1>
           <p>
           Our job is to get you everything you need in <br />
           the shortest amount of time possible.

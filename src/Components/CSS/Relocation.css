@@ -1,0 +1,79 @@
+@media(min-width: 767px){
+    .pickUp{
+        width: 100%;
+    }
+    #header{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .pickUpFlex{
+        display: flex;
+    }
+    .pickUpFlexText{
+        
+        margin-top: 50px;
+        width: 40%;
+    }
+    .pickUpFlexText p{
+        margin-left: 40px;
+        margin-top: 300px;
+        margin-right: 10px;
+    }
+    .pickUpFlexText button{
+        margin-left: 40px;
+        border-radius: 10px;
+        background-color:#D71F20;
+        color: white;
+        height: 43px;
+        width: 194px;
+        top: 599px;
+        padding: 25px, 90px, 25px, 90px;
+    
+    }
+    .pickUpFlexImg{
+        margin-top: 50px;
+        width: 60%;
+    }
+    #imgBike{
+        width: 100%;
+        margin-top: 150px;
+    }
+}
+
+
+@media(max-width: 766px){
+    #header{
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 90px;
+    }
+    .pickUpFlexText{
+        width: 100%; 
+    }
+    .pickUpFlexText p{
+        text-align: center;
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .pickUpFlexText button{
+        margin-left: 190px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color:#D71F20;
+        color: white;
+        height: 43px;
+        width: 194px;
+        padding: 25px, 90px, 25px, 90px;
+    
+    }
+    .pickUpFlexImg{
+        margin-top: 75px;
+        width: 100%;
+    }
+    #imgBike{
+        width: 20px;
+        margin-right: 10px;;
+    }
+}

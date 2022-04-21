@@ -1,0 +1,121 @@
+*{
+    background-color: #FAFAFA;
+}
+#payment-box1{
+    margin: 25px auto;
+    width: 50%;
+    height: 600px;
+    left: 394px;
+    margin-top: 100px;
+    border-radius: 8px;
+    padding: 35px, 56px, 48px, 56px;
+
+}
+#payment-box1 h2{
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 15px;
+    width: fit-content;
+}
+
+#payment-box1 p{
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 15px;
+    width: fit-content;
+}
+
+#paystack, #flutterwave{
+width: 90%;
+background-color: #FDFDFD;
+margin: 25px auto;
+height: 70px;
+border-radius: 10px;
+
+}
+ #img1{
+    width: 45px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+#img2{
+    width: 80px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+ #paystack-radio, #flutterwave-radio{ 
+    color:#D71F20;
+    float: right;
+    margin-top: 30px;
+    background-color: #FDFDFD;
+} 
+input[type=submit]{
+ height: 48px;
+width: 200px;
+left: 56px;
+top: 555px;
+border-radius: 10px;
+padding: 12px;
+color:white;
+background-color: #D71F20;
+
+}
+@media screen and (min-width: 950px) {
+    input[type=submit] {
+    background-color: #D71F20;
+    width: 600px;
+
+    }
+    #payment-box1 h2{
+        width:40%;
+    }
+    #payment-box1 p{
+        width: 40%;
+    }
+    #img1{
+        width: 20%;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        height: 20px;
+    }
+    #img2{
+    width: 20%;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    height: 50px;
+}
+#payment-box1 h2{
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 30px;
+    width: fit-content;
+}
+
+#payment-box1 p{
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 30px;
+    width: fit-content;
+}
+
+  }
+
+

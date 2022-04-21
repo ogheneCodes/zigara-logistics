@@ -1,0 +1,16 @@
+@media (max-width: 1280px){
+    a:hover {
+        color: red !important;
+      }
+    button:hover {
+        color: red!important;
+    }
+}
+@media (min-width: 1280px){
+    a:hover {
+        color: red !important;
+      }
+    button:hover {
+        color: red!important;
+    }
+}
