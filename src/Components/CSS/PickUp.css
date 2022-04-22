@@ -1,22 +1,27 @@
 @media(min-width: 767px){
     .pickUp{
         width: 100%;
+        /* padding-top: 60px; */
     }
     #header{
         text-align: center;
-        margin-top: 50px;
+        margin-top: -350px;
     }
     .pickUpFlex{
         display: flex;
+        margin-top:0%;
     }
     .pickUpFlexText{
         
-        margin-top: 5px;
+        margin-top: 10px;
         width: 40%;
+        /* background-color:green; */
+        text-align: center;
+    
     }
-    .pickUpFlexText p{
+    .pickUpFlexText > p{
         margin-left: 40px;
-        margin-top: 300px;
+        margin-top: 0%;
         margin-right: 10px;
     }
     .pickUpFlexText button{
@@ -26,16 +31,18 @@
         color: white;
         height: 43px;
         width: 194px;
-        top: 599px;
+        /* top: 599px; */
         padding: 25px, 90px, 25px, 90px;
     
     }
     .pickUpFlexImg{
         margin-top: 5px;
         width: 60%;
+        /* background-color: red; */
     }
     #imgBike{
-        width: 100%;
+        width: 50%;
+        margin-top:0%;
     }
 }
 

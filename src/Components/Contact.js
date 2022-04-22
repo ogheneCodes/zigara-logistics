@@ -21,8 +21,8 @@ export class Contact extends Component {
                 <form action="">
                     <input type="text" />
                     <input type="text" />
-                    <br /><br /><br />
                     <textarea name="" id="" cols="50" rows="10"></textarea><br/>
+                    
                     <input type="submit" value="Submit" />
                 </form>
             </div>
@@ -34,5 +34,3 @@ export class Contact extends Component {
 
 export default Contact
 
-
-// 

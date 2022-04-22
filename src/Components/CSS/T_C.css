@@ -1,0 +1,18 @@
+.terms-and-condition{
+    width: 60%;
+    margin: 25px auto;
+
+}
+h1{
+    text-align: center;
+    color: black;
+} 
+span{
+    color: red;
+}
+span, p{
+    margin-left: 5px;
+}
+
+
+

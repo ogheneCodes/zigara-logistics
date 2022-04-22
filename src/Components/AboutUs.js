@@ -4,6 +4,7 @@ export class AboutUs extends Component {
   render() {
     return (
       <div>
+        <br /><br />
         <h1>Delivering the Best Logistics <br />Solution</h1>
         <p>Safe, fast and reliable delivery of goods and services</p>
         <div className='divs'>

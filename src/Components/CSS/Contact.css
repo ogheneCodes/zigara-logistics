@@ -46,10 +46,10 @@
         margin-left: 100px;
     }
     input[type=text]{
-        border-radius: 20px;
+        border-radius: 5px;
     }
     textarea{
-        border-radius: 50px;
+        border-radius: 15px;
     }
     input[type=submit]{
         height: 43px;

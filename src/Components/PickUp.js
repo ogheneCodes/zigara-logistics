@@ -6,6 +6,7 @@ export class PickUp extends Component {
     return (
       <div>
         <div className="pickUp">
+            <br /><br />
             <h1 id="header">Pick up and Delivery</h1>
             <div className="pickUpFlex">
                 <div className='pickUpFlexText'>
