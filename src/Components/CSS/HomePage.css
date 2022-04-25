@@ -378,7 +378,8 @@ padding-top: 10%;
 #para-one, #para-two {
     color: black;
     /* text-align: center; */
-    padding-left: 15%;
+    padding-left: 13%;
+    padding-right:2px;
 
 }
 .quick-and-reliable-section-div-button{
