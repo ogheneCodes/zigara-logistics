@@ -4,12 +4,11 @@ export class T_C extends Component {
   render() {
     return (
       <div>
+      <br /><br /><br /><br />
             <div className='terms-and-condition'>
                 <h1>Terms & Conditions for Zigara Logistics</h1>
             <span>User Terms</span>
             <p>
-            User Terms
-
             These terms of use ("Terms of Use") mandate the terms on which users ("You" or "Your" or "Yourself" or "Users") interested in browsing or availing Zigara Logistics(defined below), and accessing the platform www.Zigaralogistics.ng  and the mobile application owned and operated Zigara ("Zigara") collectively referred to as, the "Platform" connects with the merchants registered on the Platform ("Tied-up Merchants"), merchants not registered on the Platform ("Non-tied up Merchants") (together hereinafter referred to as "Merchants") and with delivery partners ("Zigara") to avail the Zigara Services.
             
             Please read the Terms of Use carefully before using the Platform or registering on the Platform or accessing any material or information through the Platform. By clicking on the "I Accept" button, You accept this Terms of Use and agree to be legally bound by the same.

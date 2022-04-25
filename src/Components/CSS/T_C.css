@@ -1,6 +1,12 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
 .terms-and-condition{
-    width: 60%;
+    width: 90%;
     margin: 25px auto;
+    border-color: beige;
+    border-style: groove;
 
 }
 h1{
@@ -11,7 +17,13 @@ span{
     color: red;
 }
 span, p{
-    margin-left: 5px;
+    margin-left: 0%;
+    padding-left:0%;
+    /* justify-content:stretch; */
+    text-align: left;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-right: 120px; */
 }
 
 

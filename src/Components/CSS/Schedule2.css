@@ -1,3 +1,6 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
 #schedule2{
     margin: 25px auto;
     /* background-color:aqua; */

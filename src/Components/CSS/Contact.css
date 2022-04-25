@@ -1,3 +1,6 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
 @media(min-width: 1280px){
     .contact_main_body{
         width: 100%;
@@ -8,7 +11,7 @@
         background-size: 100%;
         height: 550px;
         margin-left: 0px;
-        margin-right: px;
+        /* margin-right: px; */
         width: 100%;
         z-index: -1;
     }

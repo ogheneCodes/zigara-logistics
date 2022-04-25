@@ -61,7 +61,7 @@ export class NavBar extends Component {
          <button type="button" className="btn btn-danger">Login</button>
          </li>
          <li className="nav-item">
-         <button type="button" className="btn btn-light">Sign Up</button>
+         <button type="button" className="btn btn-light" id="signup">Sign Up</button>
          </li>
        </ul>
      </div>
