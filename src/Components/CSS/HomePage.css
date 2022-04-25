@@ -1,5 +1,395 @@
+
+/* Other screens below min-width:767px */
+
+ /*quick-and-reliable-section*/
+    
+ .quick-and-reliable-section{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    height: 100vh;
+    margin-top: 35%;
+    padding-top: 25%;
+    flex-direction: column-reverse;
+
+}
+.quick-and-reliable-section-div-one{
+    width: 100%;
+    /* background-color: green; */
+    /* margin-top: 100px; */
+}
+
+#QR{
+    padding-left: 15%;
+    font-size:xx-large;
+    font-weight: 900;
+    color: black;
+}
+#D{
+    padding-left: 15%;
+    font-size:xx-large;
+    font-weight: 900;
+    color:#D71F20;
+}
+#para-one, #para-two {
+    color: black;
+    /* text-align: center; */
+    padding-left: 13%;
+    padding-right:2px;
+
+}
+.quick-and-reliable-section-div-button{
+    margin-left: 15%;
+    background-color: #D71F20;
+    color: white;
+    height: 43px;
+    width: 194px;
+    border-radius: 10px;  
+}
+.quick-and-reliable-section-div-two{
+    width: 100%;
+    background-size:100%;
+    /* margin-top: 350%; */
+    /* background-color:yellow; */
+    /* margin-top: 350px; */
+    /* padding-top: 550%; */
+    /* padding-bottom: 10%;  */
+    /* margin-left: 0px; */
+    background-image: url(../../images/img1-quick.png);
+    background-repeat: no-repeat;
+    background-position:relative;
+    /* margin-bottom: 5%; */
+}
+#rectangle1{
+    /* margin-left: 20px; */
+    /* margin-top: 25px; */
+    padding-top: 2%;
+    padding-left: 2%;
+}
+#rectangle2{
+ margin-top: 70px;
+ padding-top: 10%;
+ padding-left: 80%;
+
+}
+
+
+/* Who we Are Section */
+.who-we-are{
+background-color: #D71F20;
+/* display: flex; */
+width: 100%;
+margin-top: 30%;
+}
+
+
+.who-we-are-div-one{
+width: 100%;
+}
+.who-we-are-div-one img{
+width: 100%;
+}
+
+.who-we-are-div-two{
+width:100%;
+/* margin-right: 10%; */
+}
+.who-we-are-div-two h2{
+padding-top: 10%;
+color: white;
+text-align: center;
+
+}
+.who-we-are-div-para{
+color: white;
+text-align: center;
+}
+
+
+
+/* How we Work Section */
+.how-we-work{
+background-color: white;
+width: 100%;
+
+}
+
+/* first Div */
+.how-we-work-div-one{
+width: 100%;
+/* display: flex; */
+margin-top: 20%;
+}
+.how-we-work-div-one-img{
+width: 100%;
+}
+.how-we-work-div-one-img img{
+width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+/* padding-left: 10%; */
+}
+
+.how-we-work-div-one-text{
+width: 100%;
+text-align: center;
+/* margin-right: 10%; */
+}
+.how-we-work-div-one-text > h2{
+/* padding-top: 10%; */
+}
+.how-we-work-div-one-text-para{
+color: black;
+}
+
+/* second Div */
+.how-we-work-div-two{
+width: 100%;
+display: flex;
+flex-direction: column-reverse;
+margin-top: 20%;
+}
+.how-we-work-div-two-img{
+width: 100%;
+}
+.how-we-work-div-two-img img{
+width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+
+/* margin-left: 10%; */
+}
+.how-we-work-div-two-text{
+width: 100%;
+text-align: center;
+}
+.how-we-work-div-two-text > h2{
+/* padding-top: 20%; */
+}
+.how-we-work-div-two-text-para{
+color: black;
+}
+
+/* third Div */
+.how-we-work-div-three{
+width: 100%;
+/* display: flex; */
+/* flex-direction: column-reverse; */
+margin-top: 20%;
+}
+.how-we-work-div-three-img{
+width: 100%;
+}
+.how-we-work-div-three-img img{
+width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+}
+.how-we-work-div-three-text{
+width: 100%;
+text-align: center;
+}
+.how-we-work-div-three-text > h2{
+/* padding-top: 20%; */
+}
+.how-we-work-div-three-text-para{
+color: black;
+}
+
+
+
+/* Why Choose Us Section*/
+.why-choose-us{
+background-color: #F2F2F2;
+width: 100%;
+margin-top: 20%;
+padding-top: 10px;
+}
+
+.why-choose-use-text{
+padding-top: 2%;
+text-align: center;
+}
+.why-choose-use-text > h1{
+/* text-align: center; */
+
+}
+.why-choose-use-text > p{
+/* text-align: center; */
+}
+.why-choose-us-div{
+width: 100%;
+/* display: flex; */
+padding-top: 25%;
+}
+.safe{
+text-align: center;
+height: 457px;
+width: 100%;
+/* margin: 80px; */
+padding-top: 5%;
+color:black;
+background-color:#FFFFFF;
+}
+.fast{
+text-align: center;
+height: 457px;
+width: 100%;
+/* margin: 80px; */
+padding-top: 5%;
+color:black;
+background-color:#FFFFFF;
+}
+.reliable{
+text-align: center;
+height: 457px;
+width: 100%;
+/* margin: 80px; */
+padding-top: 5%;
+color:black;
+background-color:#FFFFFF;
+}
+
+/* We Provide section */
+.we-provide{
+width: 100%;
+/* padding-bottom: 35%; */
+}
+.we-provide-div{
+width: 100%;
+/* display: flex; */
+}
+.we-provide-div-one{
+width: 100%;
+}
+.we-provide-div-one-img1{
+padding-left: 2%;
+position:absolute;
+padding-top: 10%;
+
+}
+
+.we-provide-div-one-img2{
+width:100%;
+padding-left:10%;
+padding-top: 15%;
+position: absolute;
+z-index: 10;
+}
+
+.we-provide-div-two{
+width: 100%;
+/* padding-right: 2%; */
+}
+.we-provide-div-two > h2{
+padding-top: 90%;
+padding-bottom: 10%;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.we-provide-div-space{
+/* max-height: 10%;
+background-color: green; */
+}
+
+
+/* footer section */
+.footer{
+width: 100%;
+background-color: black;
+}
+.footer-div-one{
+width: 100%;
+/* display: flex; */
+color: white;
+}
+.footer-div-one img{
+padding-left: 10%;
+position: absolute;
+padding-top:10%;
+}
+.div-links{
+/* text-align: center; */
+padding-left: 10%;
+padding-top:35%;
+}
+.div-links  span{
+/* padding-left: 0%; */
+color: white;
+}
+.div-contact{
+padding-left: 10%;
+padding-top:10%;
+}
+.div-contact span{
+color: white;
+}
+.div-business-hour{
+padding-left: 10%;
+padding-top:10%;
+}
+.div-business-hour span{
+color: white;
+}
+
+.footer-div-two{
+width: 100%;
+color: white;
+}
+.social-media-div {
+width: 100%;
+}
+.social-media-div h2{
+padding-left: 10%;
+padding-top:10%;
+}
+.social-media-div span{
+padding-left: 10%;
+padding-top:10%;
+color: white;
+}
+.copyright-div{
+width:100%;
+text-align: center;
+padding-top: 10%;
+padding-bottom: 10%;
+}
     
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 767px) {
     /*quick-and-reliable-section*/
     
@@ -61,15 +451,11 @@
     }
     #rectangle2{
      margin-top: 70px;
-     padding-top: 30%;
+     padding-top: 35%;
      padding-left: 85%;
   }
-  @media(max-width: 768) {
-    #rectangle2{
-        padding-top: 25%;
-        padding-left: 80%;
-     }
-  }
+
+  
 
 
  /* Who we Are Section */
