@@ -129,6 +129,27 @@
         padding-left: 15%;
     
     }
+    @media(max-width:370px){
+        #QR{
+            padding-left: 10%;
+            font-size:xx-large;
+            font-weight: 900;
+            color: black;
+            /* display:none; */
+           
+        }
+        #D{
+            padding-left: 35%;
+            font-size:x-large;
+            font-weight: 900;
+            color:#D71F20;
+        }
+        #para-one, #para-two {
+            color: black;
+            padding-left: 8%;
+        
+        }
+    }
     .quick-and-reliable-section-div-button{
         margin-left: 20%;
         background-color: #D71F20;
@@ -174,18 +195,19 @@
  padding-top: 28%;
  padding-left: 85%;
 }
-@media(max-width: 480px){
-    #rectangle2{
-        margin-top: 70px;
-        padding-top: 18%;
-        padding-left: 80%;
-     }
-}
+
 @media(max-width:377px){
     #rectangle2{
         margin-top: 60px;
         padding-top: 5%;
         padding-left: 75%;
+     }
+}
+@media(max-width: 480px){
+    #rectangle2{
+        margin-top: 70px;
+        padding-top: 18%;
+        padding-left: 80%;
      }
 }
 @media(min-width:1200px){
@@ -195,7 +217,14 @@
         padding-left: 85%;
      }
 }
-@media(min-width:1440px){
+@media(max-width:1440px){
+    #rectangle2{
+        margin-top: 40%;
+        padding-top: 5%;
+        padding-left: 87%;
+     }
+}
+@media(min-width:1441px){
     #rectangle2{
         margin-top: 35%;
         padding-top: 5%;
@@ -209,6 +238,7 @@
     display: flex;
     width: 100%;
     margin-top: 2%;
+    padding-bottom: 5%;
 }
 @media(max-width: 768px){
     .who-we-are{
@@ -279,6 +309,7 @@
 .how-we-work{
     background-color: white;
     width: 100%;  
+    padding-top:10%;
 }
 
 /* first Div */

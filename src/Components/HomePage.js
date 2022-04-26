@@ -48,7 +48,6 @@ export default class HomePage extends Component {
         <h2>Who We Are</h2>
       <span className="who-we-are-div-para">Zigara is a logistics company that makes goods delivery simple and stress-free. We provide services that are quick, safe, and dependable. We render safe, fast and reliable delivery of goods and services.</span>
       </div> 
-      <br /><br /> 
       </section>
 
      {/*How We Work*/}

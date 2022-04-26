@@ -5,7 +5,7 @@ export class Relocation extends Component {
   render() {
     return (
       <div>
-      <div className="pickUp">
+      <section className="pickUp">
       <h1 id="header">Let’s help you relocate without hassle</h1>
       <div className="pickUpFlex">
           <div className='pickUpFlexText'>
@@ -18,7 +18,7 @@ export class Relocation extends Component {
               <img src={relocation} alt="" id="relocationImg"/>
           </div>
       </div>
-  </div>
+  </section>
       
       </div>
     )
