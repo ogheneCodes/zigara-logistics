@@ -6,19 +6,19 @@ export class PickUp extends Component {
     return (
       <div>
         <div className="pickUp">
-            <br /><br />
-            <h1 id="header">Pick up and Delivery</h1>
+            <h1>Pick up and Delivery</h1>
             <div className="pickUpFlex">
-                <div className='pickUpFlexText'>
-                    <p>Within Enugu State, we provide seamless and hassle-free logistical services.
-                    Our dispatch riders are available to pick up and transport your items to your location quickly and safely.
-                    </p>
-                    <button>Schedule Delivery</button>
-                </div>
                 <div  className="pickUpFlexImg">
                     <img src={zigaraBike} alt="" id="imgBike"/>
                 </div>
+                <div className='pickUpFlexText'>
+                    <span>Within Enugu State, we provide seamless and hassle-free logistical services.
+                    Our dispatch riders are available to pick up and transport your items to your location quickly and safely.
+                    </span>
+                    <br />
+                </div>
             </div>
+            <button>Schedule Delivery</button>
         </div>
       
       

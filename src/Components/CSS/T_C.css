@@ -3,27 +3,35 @@
 }
 
 .terms-and-condition{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10%;
     width: 90%;
-    margin: 25px auto;
+    /* margin: auto; */
     border-color: beige;
-    border-style: groove;
+    /* border-style: groove; */
 
 }
 h1{
     text-align: center;
     color: black;
 } 
+@media(max-width:480px){
+    h1{
+        text-align: center;
+        color: black;
+        font-size:medium;
+        font-weight: bold;
+    } 
+}
 span{
     color: red;
 }
-span, p{
-    margin-left: 0%;
-    padding-left:0%;
-    /* justify-content:stretch; */
-    text-align: left;
+p{
+    word-spacing: 5px;
     width:100%;
     font-family: 'Times New Roman', Times, serif;
-    /* margin-right: 120px; */
 }
 
 

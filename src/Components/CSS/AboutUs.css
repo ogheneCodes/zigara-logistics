@@ -1,32 +1,63 @@
 *{
     font-family:'Times New Roman', Times, serif;
 }
-h1{
-    text-align:center;
-    margin-top: 50px;
+.about_us_section{
+    width: 60%;
+    margin: auto;
 }
-p{
-    text-align:center;
-    margin-top: 10px;
+@media(max-width: 480px){
+    .about_us_section{
+        width: 80%;
+        margin: auto;
+    }
 }
-.divs{
-    margin: 25px auto;
-    width:50%;
+.about_us_section h1{
+    text-align:center;
+    padding-top: 20%;
+}
+@media(max-width: 768px){
+    .about_us_section h1{
+        text-align:center;
+        padding-top: 35%;
+    }
+}
+@media(max-width: 480px){
+    .about_us_section h1{
+        text-align:center;
+        padding-top: 45%;
+    }
+}
+
+.about_us_section p{
+    text-align:center;
+    /* margin-top: 10px; */
+}
+.about_us_section-div{
+    margin: auto;
+    width:70%;
     border: 1px solid red;
     border-radius: 50px;
     text-align: center;
     height: 250px;
-    
+    margin-bottom: 5%;  
 }
-.divs > h2{
-    margin: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+@media(max-width: 480px){
+    .about_us_section-div{
+        margin: auto;
+        width:90%;
+        border: 1px solid red;
+        border-radius: 50px;
+        text-align: center;
+        height: 250px;
+        margin-bottom: 10%;  
+    }
+}
+.about_us_section-div > h2{
+    padding-top: 10%;
 
 }
-.divs > p{
-    margin: -40px;
-    margin-left: 10px;
-    margin-right: 10px;
-
+.about_us_section-div > p{
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
