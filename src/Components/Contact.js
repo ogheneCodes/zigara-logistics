@@ -1,36 +1,67 @@
-import React, { Component } from 'react'
-import './CSS/Contact.css'
-import contact from '../images/contact us.png';
-import phone from '../images/phone.png';
+import React, { Component } from "react";
+import "./CSS/Contact.css";
+import contactPicture from "../images/contact us.png";
+import phone from "../images/phone.png";
+import "./CSS/Contact.css";
+// import contactPicture1 from '../src/image/Group10.svg';
+// import call from '../src/image/Frame3.png';
+// import './App.css';
+
 export class Contact extends Component {
   render() {
     return (
-    <div className="contact_main_body">
-        <div className='contact_bg_img'> 
-        <div id='contact_bg_img_text'>
-          <h2>Customer Support</h2>
-        </div>
-        </div>
-     
-        <div className='contact_div'>
-            <div className='contact_phone'>
-                <img src={phone} alt="phone" id="phone"/>
+      <div>
+        <img className="image" src={contactPicture} alt="Avatar" />
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-4 col-md-4 col-lg-4 ">
+              <img className="i" src={phone} alt="Avatar" />
             </div>
-            <div className='contact_form'>  
-            <h2>Write to us</h2>
-                <form action="">
-                    <input type="text" />
-                    <input type="text" />
-                    <textarea name="" id="" cols="50" rows="10"></textarea><br/>
-                    
-                    <input type="submit" value="Submit" />
-                </form>
+            <div className="col-sm-4 col-md-4 col-lg-8 ">
+              <p style={{ fontWeight: "bold" }}>Write To Us</p>
+              <form className="form">
+                <div className="container">
+                  <div className="row">
+                    <div>
+                      <div class="form-group" style={{ paddingRight: "20px" }}>
+                        <input
+                          type="name"
+                          className="input-large"
+                          placeholder="Full Name *"
+                        />
+                      </div>
+
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          className="input-lg"
+                          aria-describedby="emailHelp"
+                          placeholder=" email *"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="form-group" style={{ paddingRight: "10px" }}>
+                        <input
+                          type="text"
+                          className="mySize"
+                          placeholder=" message *"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-danger">
+                  Submit
+                </button>
+              </form>
             </div>
           </div>
-    </div>
-    )
+        </div>
+      </div>
+    );
   }
 }
 
-export default Contact
-
+export default Contact;

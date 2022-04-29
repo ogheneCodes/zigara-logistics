@@ -13,6 +13,8 @@ import Relocation from './Relocation';
 import AboutUs from './AboutUs'
 import NavBar from './NavBar';
 import FAQ from './FAQ';
+// import Login from './login'
+// import SignUp from './signUp'
 function App() {
   return (
     <Router>
@@ -28,6 +30,8 @@ function App() {
        <Route path="/Contact" element={<Contact/>} />
        <Route path="/FAQ" element={<FAQ/>} />
        <Route path="/T_C" element={<T_C/>} />
+    
+     
        </Routes>    
     </Router>
   );
