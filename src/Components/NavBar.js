@@ -35,17 +35,13 @@ export class NavBar extends Component {
               <Link to="/PickUp">Pick up and Delivery</Link>
               <Link to="/Relocation">Packing and moving (Relocation)</Link>
            </div>
-         </li>
+        </li>
          <li className="nav-item">
            <Link className="nav-link" to="/AboutUs">
              About Us
            </Link>
          </li>
-         <li className="nav-item">
-           <Link className="nav-link" to="">
-             Account
-           </Link>
-         </li>
+        
          <li className="nav-item dropdown">
            <Link className="nav-link" to="">
              Support<FaAngleDown></FaAngleDown>
@@ -61,7 +57,7 @@ export class NavBar extends Component {
          <Link to="/Login"><button type="button" className="btn btn-danger">Login</button></Link>
          </li>
          <li className="nav-item">
-         <Link to="/SignUp"> <button type="button" className="btn btn-light" id="signup">Sign Up</button> </Link>
+         <Link to="/signUp"> <button type="button" className="btn btn-light" id="signup">Sign Up</button> </Link>
          </li>
        </ul>
      </div>

@@ -28,7 +28,7 @@ export default class HomePage extends Component {
           <span id='D'>Delivery</span> <br />
           <span id='para-one'>Our job is to get you everything you need</span> <br/>
           <span id='para-two'>in the shortest amount of time possible.</span> <br /> <br />
-          <button className='quick-and-reliable-section-div-button'>Schedule Delivery</button>
+          <Link to="/Login"><button className='quick-and-reliable-section-div-button'>Schedule Delivery</button></Link>
       </div>
       
       <div className="quick-and-reliable-section-div-two">
