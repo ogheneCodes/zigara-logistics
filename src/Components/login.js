@@ -14,17 +14,15 @@ function login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-      axios
-        .post("https://zigara-app.herokuapp.com/login", data)
-        .then((res) => {
-            console.log("user is login"+ res.data)
-            navigate("/PickUp")
-        } 
-        )
-        .catch((err) => console.log(err+ "can not login"));
-    } 
-    // console.log(data)
- 
+    axios
+      .post("https://zigara-app.herokuapp.com/login", data)
+      .then((res) => {
+        console.log("user is login" + res.data);
+        navigate("/Schedule1");
+      })
+      .catch((err) => console.log(err + "can not login"));
+  };
+  // console.log(data)
 
   return (
     <section className="about_us_section">
