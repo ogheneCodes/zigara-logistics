@@ -8,7 +8,7 @@ import Contact from './Contact'
 // import Schedule1 from './Schedule1';
 // import Schedule2 from './Schedule2';
 import T_C from './T_C';
-// import PickUp from './PickUp';
+import PickUp from './PickUp';
 import Relocation from './Relocation';
 import AboutUs from './AboutUs'
 import NavBar from './NavBar';
@@ -32,6 +32,7 @@ function App() {
        <Route path="/T_C" element={<T_C/>} />
        <Route path="/SignUp" element={<SignUp/>} />
        <Route path="/Login" element={<Login/>} />
+       <Route path="/PickUp" element={<PickUp/>} />
     
       
        </Routes>    
