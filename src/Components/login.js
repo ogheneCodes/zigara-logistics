@@ -21,52 +21,44 @@ function login() {
         navigate("/Schedule1");
       })
       .catch((err) => console.log(err + "can not login"));
+      handleSubmit.value = "";
   };
-  // console.log(data)
+  console.log(data)
 
   return (
-    <section className="about_us_section">
-      <div className="login-form">
-        <form onSubmit={handleSubmit}>
-          <h2 className="text-center">Log in</h2>
-          <div className="form-group">
-            <input
-              type="email"
-              className="form-control"
-              placeholder="Email"
-              onChange={(e) => setEmail(e.target.value)}
-              required="required"
-              value={email}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="password"
-              className="form-control"
-              placeholder="Password"
-              onChange={(e) => setPassword(e.target.value)}
-              required="required"
-              value={password}
-            />
-          </div>
-          <div className="form-group">
-            <button type="submit" className="btn btn-danger btn-block">
-              Log in
-            </button>
-          </div>
-          <div className="clearfix">
-            <label className="float-left form-check-label">
-              <input type="checkbox" /> Remember me
-            </label>
-            <a href="#" className="float-right">
-              Forgot Password?
-            </a>
-          </div>
-        </form>
-        <p className="text-center">
-          <Link to="/signUp">Create an Account</Link>
-        </p>
-      </div>
+    <section className="section">
+      <h2>Log in </h2>
+
+      <form onSubmit={handleSubmit}>
+        <div className="inputText">
+          <label htmlFor="email">Email*</label> <br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            value={email}
+          />
+        </div>
+        <div className="inputText">
+          <label htmlFor="password">Password*</label> <br />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            onChange={(e) => setPassword(e.target.value)}
+            required
+            value={password}
+          />
+        </div>
+        <input type="submit" value="Log in" />
+      </form>
+      <p className="p1">Or with</p>
+      <div className="social_medias"></div>
+      <p className="p2">
+        Don’t have an account? <span>Sign up</span>
+      </p>
     </section>
   );
 }

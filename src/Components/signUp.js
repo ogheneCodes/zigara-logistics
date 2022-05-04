@@ -27,6 +27,7 @@ const SignUp = () => {
         .post("https://zigara-app.herokuapp.com/register", data)
         .then((res) => console.log(res.data))
         .catch((err) => console.log(err));
+        handleSubmit.value = "";
     } else {
       alert("Password does not match");
     }
@@ -34,103 +35,135 @@ const SignUp = () => {
   // console.log(data);
   return (
     <>
-      <div className="signup-form">
-        <form onSubmit={handleSubmit}>
-          <h2>Register</h2>
-          <p className="hint-text">
-            Create your account. It's free and only takes a minute.
-          </p>
-          <div className="form-group">
-            <div className="row">
-              <div className="col">
-                <input
-                  type="text"
-                  className="form-control"
-                  onChange={(e) => setFirstName(e.target.value)}
-                  name="first_name"
-                  placeholder="First Name"
-                  required="required"
-                  value={firstName}
-                />
-              </div>
-              <div className="col">
-                <input
-                  type="text"
-                  className="form-control"
-                  name="last_name"
-                  placeholder="Last Name"
-                  onChange={(e) => setLastName(e.target.value)}
-                  required="required"
-                  value={lastName}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="form-group">
-            <input
-              type="email"
-              className="form-control"
-              name="email"
-              placeholder="Email"
-              onChange={(e) => setEmail(e.target.value)}
-              required="required"
-              value={email}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="password"
-              className="form-control"
-              name="password"
-              placeholder="Password"
-              onChange={(e) => setPassword(e.target.value)}
-              required="required"
-              value={password}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="password"
-              className="form-control"
-              name="confirm_password"
-              placeholder="Confirm Password"
-              onChange={(e) => setPassword2(e.target.value)}
-              required="required"
-              value={password2}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="text"
-              className="form-control"
-              name="number"
-              placeholder="phone"
-              onChange={(e) => setPhone(e.target.value)}
-              required="required"
-              value={phone}
-            />
-          </div>
-          <div className="form-group">
-            <label className="form-check-label">
-              <input type="checkbox" required="required" /> I accept the{" "}
-              <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a>
-            </label>
-          </div>
-          <div className="form-group">
-            <button type="submit" className="btn btn-primary btn-lg btn-block">
-              Register Now
-            </button>
-          </div>
-        </form>
-        <div className="text-center">
-          Already have an account?{" "}
-          <Link to="/Login" className="text-center2">
-            Sign in
-          </Link>
+    <section>
+    <h3>Sign Up</h3>
+    <span className="indicate">
+      <strong>.</strong>indicates required field.
+    </span>
+    <form  onSubmit={handleSubmit}>
+      <div className="inputName">
+        <div className="inputText">
+          <label htmlFor="firstName">First Name*</label> <br />
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            onChange={(e) => setFirstName(e.target.value)}
+            required
+            value={firstName}
+          />
+        </div>
+        <div className="inputText">
+          <label htmlFor="lastName">Last Name*</label> <br />
+          <input
+            type="text"
+            name="lastName"
+            placeholder="Last Name"
+            onChange={(e) => setLastName(e.target.value)}
+            required
+            value={lastName}
+          />
         </div>
       </div>
+      <div className="inputText">
+        <label htmlFor="email">Email*</label> <br />
+        <input
+         type="email"
+          name="email" 
+          placeholder="Email"
+          onChange={(e) => setEmail(e.target.value)}
+          required 
+          value={email}
+          />
+      </div>
+      <div className="inputText">
+        <label htmlFor="password">Password*</label> <br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          onChange={(e) => setPassword(e.target.value)}
+          required
+          value={password}
+        />
+      </div>
+      <div className="inputText">
+        <label htmlFor="password2">Confirm Password*</label> <br />
+        <input
+          type="password"
+          name="password2"
+          placeholder="Confirm Password"
+          onChange={(e) => setPassword2(e.target.value)}
+          required
+          value={password2}
+        />
+      </div>
+      <div className="inputText">
+        <label htmlFor="phone">Phone Number*</label> <br />
+        <input 
+        type="number"
+         name="phone" 
+         placeholder="Phone Number" 
+         onChange={(e) => setPhone(e.target.value)}
+         required
+        value={phone}
+         />
+
+      </div>
+      <input type="submit" value="Sign Up" />
+    </form>
+    <p className="p1">Or with</p>
+    <div className="social_medias"></div>
+    <p className="p2">
+      Already have an account? <span>Log in</span>
+    </p>
+  </section>
     </>
   );
 };
 
 export default SignUp;
+
+
+// <section>
+//         <h1>Sign Up</h1>
+//         <span>
+//           <strong>.</strong>indicates required field.
+//         </span>
+//         <form onSubmit={handleSubmit}>
+//         <div className="inputName">
+//           <div className="inputText">
+//             <label htmlFor="firstName">First Name*</label> <br />
+//             <input type="text" name="firstName" placeholder="First Name" required/>
+//           </div>
+//           <div className="inputText">
+//             <label htmlFor="lastName">Last Name*</label> <br />
+//             <input type="text" name="lastName" placeholder="Last Name" required/>
+//           </div>
+//         </div>
+//         <div className="inputText">
+//           <label htmlFor="email">Email*</label> <br />
+//           <input type="email" name="email" placeholder="Email" required/>
+//         </div>
+//         <div className="inputText">
+//           <label htmlFor="password">Password*</label> <br />
+//           <input type="password" name="password" placeholder="Password" />
+//         </div>
+//         <div className="inputText">
+//           <label htmlFor="password2">Confirm Password*</label> <br />
+//           <input
+//             type="password"
+//             name="password2"
+//             placeholder="Confirm Password"
+//           />
+//         </div>
+//         <div className="inputText">
+//           <label htmlFor="phone">Phone Number*</label> <br />
+//           <input type="number" name="phone" placeholder="Phone Number" />
+//         </div>
+//         <input type="submit" value="Sign Up" />
+//         </form>
+//         <p className="p1">Or with</p>
+//         <div className="social_medias"></div>
+//         <p className="p2">Already have an account? <span>Log in</span></p>
+//       </section>

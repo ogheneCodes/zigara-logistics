@@ -1,35 +1,186 @@
-.about_us_section{
-    margin-top: 10%;
+
+.section{
+    width: 50%;
+    /* background-color: #fff; */
+    margin: auto;
+    margin-top: 5%;
+}
+h2{
+    padding-top: 20%;
+  font-size:x-large;
+  font-weight:bold;
+  
 }
 @media(max-width:1024px){
-    .about_us_section{
-        margin-top: 20%;
+    section{
+        width: 60%;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
     }
 }
-@media(max-width:480px){
-    .about_us_section{
-        margin-top: 50%;
+@media(max-width:920px){
+    section{
+        width: 70%;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
     }
 }
-.login-form {
-    width: 340px;
-    margin: 50px auto;
-  	font-size: 15px;
+@media(max-width:765px){
+    section{
+        width: 80%;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
+    }
 }
-.login-form form {
-    margin-bottom: 15px;
-    background: #f7f7f7;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    padding: 30px;
+@media(max-width:666px){
+    section{
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
+    }
 }
-.login-form h2 {
-    margin: 0 0 15px;
+
+.inputName{
+    display: flex;
+    padding-top: 5%;  
 }
-.form-control, .btn {
-    min-height: 38px;
-    border-radius: 2px;
+
+@media(max-width:530px){
+    .inputName{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%; 
+        width: 100%; 
+    }
+    section{
+        width: 100%;
+        background-color: #fff;
+        /* margin: auto; */
+        margin-top: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
+    }
 }
-.btn {        
-    font-size: 15px;
-    font-weight: bold;
+input[type=text] {
+    margin: 5px;
+    height: 37px;
+    width: 245px;
+    left: 81px;
+    top: 130px;
+    border-radius: 10px;
+    margin-bottom:10%;
+}
+
+input[type=email], [type=password], [type=number]{
+    height: 36.94882583618164px;
+    width: 512px;
+    left: 81px;
+    margin-bottom: 5%;
+    /* top: 223.42529296875px; */
+    border-radius: 10px;
+}
+input[type=submit] {
+    height: 41px;
+    width: 512px;
+    left: 85px;
+    top: 503px;
+    border-radius: 10px;
+    background-color:#D71F20;
+    color: #fff;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+@media(max-width:530px){
+    .inputName{
+        /* display: flex; */
+        flex-direction: column;
+        padding-top: 5%; 
+        width: 100%; 
+    }
+    section{
+        width: 100%;
+        background-color: #fff;
+        /* margin: auto; */
+        margin-top: 5%;
+        /* padding-left: 5%; */
+        padding-top: 2%;
+    }
+    input[type=text] {
+        margin: 5px;
+        height: 37px;
+        width: 90%;
+        /* left: 81px; */
+        top: 130px;
+        border-radius: 10px;
+        margin-bottom:10%;
+    }
+    
+    input[type=email], [type=password], [type=number]{
+        height: 36.94882583618164px;
+        width: 90%;
+        margin-bottom: 5%;
+        border-radius: 10px;
+    }
+    input[type=submit] {
+        height: 41px;
+        width: 90%;
+        top: 503px;
+        border-radius: 10px;
+        background-color:#D71F20;
+        color: #fff;
+    }
+}
+.p1{
+    width: 50%;
+    /* background-color:aqua; */
+    margin: auto;
+    color: black;
+    font-weight: 500;
+    padding-left:15%;
+}
+
+@media(max-width: 1024px){
+    .p1{
+        width: 50%;
+        /* background-color:aqua; */
+        margin: auto;
+        /* text-align: center */
+        padding-left:25%;
+    }
+}
+@media(max-width: 768px){
+    .p1{
+        width: 50%;
+        /* background-color:aqua; */
+        margin: auto;
+        /* text-align: center */
+        padding-left:35%;
+    }
+}
+.p2{
+    /* width: 100%; */
+    /* background-color:aqua; */
+    margin: auto;
+    color: black;
+    font-weight: 500;
+    padding-top: 5%;
+    padding-left:20%;
+    padding-bottom: 5%;
+}
+.p2 > span{
+    color:#D71F20;
+    cursor: pointer;
 }

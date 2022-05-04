@@ -12,23 +12,21 @@ export class Schedule2 extends Component {
           <div id="innerschedule2">
             <p>Please fill in the necessary details to make your deliverry</p>
             <p>Choose item type</p>
-            <form action="">
+            <form>
               <select name="items" id="items" required>
-                <option value="shoes">Shoes</option>
-                <option value="edibles">Edibles</option>
-                <option value="cloths">Cloths</option>
-                <option value="hair-extentions">Hair Extentions</option>
-                <option value="food">Food</option>
+                <option value="shoes">Wears e.g shoes, clothes, jewelllery</option>
+                <option value="edibles">Edibles e.g food, snacks, drinks</option>
+                <option value="documents">Documents </option>
+                <option value="hair-extentions">Hair extentions</option>
+                <option value="gadget">Gadgets</option>
                 <option value="drugs">Drugs</option>
-                <option value="fragile-items">Fragile Items</option>
+                <option value="breakables">Breakables e.g ceramics, plastics</option>
                 <option value="television">Television</option>
-                <option value="others">Others</option>
+                <option value="others" selected >Others</option>
               </select>
               <br />
               <br />
-              <br />
-              <br />
-              <br />
+          
 
               <div id="checked" className="row">
                 <div className="col-lg-4 form-check form-check">
@@ -71,7 +69,7 @@ export class Schedule2 extends Component {
               <br />
               <br />
               <center>
-                <Link to="/ Payment1">
+                <Link to="/Payment1">
                   <input type="submit" value="Payment" />
                 </Link>
               </center>
