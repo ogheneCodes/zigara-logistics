@@ -57,12 +57,12 @@ export class Schedule2 extends Component {
               </div>
               <p>
                 <HiOutlineLocationMarker />
-                <input type="text" required />
+                <input type="text" required  placeholder="Pick up Location"/>
               </p>
               <br />
               <p>
                 <HiOutlineLocationMarker />
-                <input type="text" required /> <br />
+                <input type="text" required  placeholder="Drop Off Location"/> <br />
                 <br />
               </p>
               <p>Estimated kilometer 15mins km/hr</p>

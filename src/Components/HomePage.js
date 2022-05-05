@@ -8,7 +8,7 @@ import how_we_work_2 from "../images/how-we-work2.svg";
 import how_we_work_3 from "../images/how-we-work3.svg";
 import safe from "../images/safe.svg";
 import fast from "../images/fast.svg";
-import reliable from "../images/safe.svg";
+import reliable from "../images/reliable.svg";
 import we_provide from "../images/we-provide.svg";
 import Group from "../images/Group.svg";
 import "./CSS/HomePage.css";

@@ -20,7 +20,8 @@ function login() {
         console.log("user is login" + res.data);
         navigate("/Schedule1");
       })
-      .catch((err) => console.log(err + "can not login"));
+     .catch((err) => alert("email or password not correct"))
+      .catch((err) => console.log(err + "can not login"))
       handleSubmit.value = "";
   };
   console.log(data)

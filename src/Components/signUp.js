@@ -32,7 +32,7 @@ const SignUp = () => {
       alert("Password does not match");
     }
   };
-  // console.log(data);
+  console.log(data);
   return (
     <>
     <section>

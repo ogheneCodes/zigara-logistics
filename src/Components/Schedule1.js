@@ -155,7 +155,7 @@ const Schedule1 = () => {
             <input
               type="text"
               name="address2"
-              placeholder="Full name *"
+              placeholder="Address *"
               onChange={(e) => setAddress2(e.target.value)}
               required
               value={address2}
